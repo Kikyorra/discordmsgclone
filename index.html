@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+    <aside class="servers">
+        <div class="server active">D</div>
+        <div class="server">J</div>
+        <div class="server">A</div>
+    </aside>
+
+    <aside class="channels">
+        <h2>JavaScript</h2>
+
+<div class="channel active" data-canal="geral"># geral</div>
+
+<div class="channel" data-canal="projetos"># projetos</div>
+
+<div class="channel" data-canal="memes"># memes</div>
+    </aside>
+
+    <main class="chat">
+
+        <header class="chat-header">
+            # geral
+        </header>
+
+        <div id="mensagens" class="mensagens"></div>
+
+        <div class="input-area">
+            <input type="text" id="inputMensagem" placeholder="Conversar em #geral">
+            <button id="enviar">Enviar</button>
+        </div>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
